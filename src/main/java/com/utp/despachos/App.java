@@ -1,13 +1,9 @@
 package com.utp.despachos;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Sistema de Despachos v0.1");
+        Despacho d = new Despacho("DSP-001", "Distribuidora Andina SAC", "Ate, Lima");
+        System.out.println(d);
     }
 }
